@@ -2,22 +2,23 @@
 
 int main()
 {
-	int n, x;
-	int arr[100] = { 0 };
+	int N, x, y, i, cnt = 0, num[10000] = { 0, };
 
-	scanf("%d %d", &n, &x);
+	scanf("%d %d", &N, &x);
 
-	for (int i = 0; i < n; i++)
+	for (i = 0; i < N; i++)
 	{
-		scanf("%d", &arr[i]);
-	}
+		scanf("%d", &y);
 
-	for (int i = 0; i < n; i++)
-	{
-		if (arr[i] < x)
+		if (y < x)
 		{
-			printf("%d", arr[i]);
+			num[cnt] = y;
+			cnt++;
 		}
 	}
-	return 0;
+
+	for (i = 0; i < cnt; i++)
+	{
+		printf("%d ", num[i]);
+	}
 }
