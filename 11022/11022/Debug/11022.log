@@ -1,0 +1,7 @@
+﻿  source.c
+c:\users\judongseok\documents\visual studio 2017\projects\baekjoon_algorithm\11022\11022\source.c(7): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\judongseok\documents\visual studio 2017\projects\baekjoon_algorithm\11022\11022\source.c(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+  11022.vcxproj -> C:\Users\judongseok\Documents\Visual Studio 2017\Projects\Baekjoon_algorithm\11022\Debug\11022.exe
+  11022.vcxproj -> C:\Users\judongseok\Documents\Visual Studio 2017\Projects\Baekjoon_algorithm\11022\Debug\11022.pdb (Partial PDB)
